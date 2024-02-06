@@ -1,4 +1,4 @@
-# xy_line_plot
+# plot xy-line
 Code for batch plotting line plots of xy-like data.
 
 The code expects at least two columns of data, where the first column is assumed    
@@ -9,6 +9,3 @@ When running the code initially, a folder called `data` will be created.
 Data file(s) to be plotted are to placed in the `data` folder.  
 All data files present in the `data` folder will be plotted.  
 The plots are saved as `.png` files to a `png` folder by default.  
-Per user edit, plots can also be saved as, e.g., `.pdf` and/or `.svg` files.
-
-Happy plotting!
