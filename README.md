@@ -27,7 +27,7 @@ Southern Denmark).
 - sorting, merging, etc., files from Balder, MAX IV.
 
 ## Setup and installation
-The following setup and installation guide is applicable for conda 
+The following setup and installation guide is applicable for conda  
 distributions, i.e., Anaconda and Miniconda.
 
 If not already created, create a new dedicated conda environment called  
