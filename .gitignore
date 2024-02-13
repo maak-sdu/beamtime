@@ -2,5 +2,8 @@
 pearson_correlation_analysis/example/npy
 pearson_correlation_analysis/example/png
 
-# xy_line_plot
-xy_line_plot/example/png
+# plot_xy_line
+plot_xy_line/example/png
+
+# plot_xy_overview
+plot_xy_overview/example/png
