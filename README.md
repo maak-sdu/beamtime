@@ -31,7 +31,7 @@ The following setup and installation guide is applicable for conda
 distributions, i.e., Anaconda and Miniconda.
 
 If not already created, create a new dedicated conda environment called  
-`beamtime_env` with a `Python 3.10` installation from the `conda-forge` channel.
+`beamtime_env` with a `Python 3.10` installation from the `conda-forge` channel.  
 In the `Anaconda Prompt`, type the following:
 ```
 conda create -n beamtime_env -c conda-forge python=3.10
