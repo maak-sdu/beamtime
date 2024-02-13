@@ -1,5 +1,5 @@
 # plot xy-line
-Code for batch plotting line plots of xy-like data.
+Code for batch line plotting of xy-like data.
 
 The code expects at least two columns of data, where the first column is assumed    
 to be the indenpendent variable ($x$) and the second column is expected to be  
