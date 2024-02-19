@@ -31,19 +31,24 @@ The following setup and installation guide is applicable for conda
 distributions, i.e., Anaconda and Miniconda.
 
 If not already created, create a new dedicated conda environment called  
-`beamtime_env` with a `Python 3.10` installation from the `conda-forge` channel.  
+`beamtime_env` with a `Python 3.11` installation from the `conda-forge` channel.  
 In the `Anaconda Prompt`, type the following:
 ```
-conda create -n beamtime_env -c conda-forge python=3.10
+conda create -n beamtime_env -c conda-forge python=3.11
 ```
 Activate the `beamtime_env` conda environment:
 ```
 conda activate beamtime_env
 ```
-Install all the required packages listed in the `requirements.txt` file from the  
-`conda-forge` channel:
+From the `conda-forge` channel, install all the required packages listed in the  
+`requirements.txt` file found in the `requirements` folder:
 ```
-conda install -n beamtime_env -c conda-forge --file requirements.txt
+conda install -n beamtime_env -c conda-forge --file requirements\requirements.txt
+```
+From `pip`, install all of the required packages listed in the  
+`pip_requirements.txt` file  found in the `requirements` folder:  
+```
+pip install -r requirements\pip_requirements.txt
 ```
 To update all installed packages in the `beamtime_env` conda environment:
 ```
