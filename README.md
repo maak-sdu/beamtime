@@ -3,7 +3,7 @@ In this repository, you will find several tools for x-ray scattering data
 collected during synchrotron beamtimes.  
 All tools are Python-based and available as iPython notebooks (`.ipynb` files).
 
-## General tools for powder x-ray diffraction and total scattering
+<!-- ## General tools for powder x-ray diffraction and total scattering
 Some general tools for powder x-ray diffraction (pxrd) and x-ray total  
 scattering (xts) data:
 - calibration and azimuthal integration of *ex situ* data.
@@ -24,7 +24,7 @@ Southern Denmark).
 - extrating .tif images from .h5 files from DanMAX, MAX IV.
 
 ### Balder, MAX IV:
-- sorting, merging, etc., files from Balder, MAX IV.
+- sorting, merging, etc., files from Balder, MAX IV. -->
 
 ## Setup and installation
 The following setup and installation guide is applicable for conda  
@@ -34,7 +34,7 @@ If not already created, create a new dedicated conda environment called
 `beamtime_env` with a `Python 3.11` installation from the `conda-forge` channel.  
 In the `Anaconda Prompt`, type the following:
 ```
-conda create -n beamtime_env -c conda-forge python=3.11
+conda create -n beamtime_env -c conda-forge python=3.12
 ```
 Activate the `beamtime_env` conda environment:
 ```
